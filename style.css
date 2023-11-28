@@ -1,0 +1,129 @@
+body{
+    background-color: bisque; 
+    font-family: 'Courier New', Courier, monospace;
+    color: bisque; 
+}
+
+ol{
+    /* background-color: rgb(247, 243, 189);
+    color:rgb(127, 6, 6); */
+    border-style: 10px dotted antiquewhite;
+    border-width: 10px;
+    /* border-color: black; */
+    border: 6px dotted bisque;
+    margin: 300px;
+    padding: 120px;
+    font-family: 'Courier New', Courier, monospace;
+    color: bisque;
+}
+
+body{
+    margin: 300px;
+    padding: 5px;
+    background-image: url("1.JPG"); 
+    background-size: 5300px;
+    width: 900px;
+    border: 6px transparent;
+    border-color:bisque;
+    background-color: rgb(122, 12, 12);
+}
+
+
+.flex-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.rectangle{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(brown, brown);
+    border-radius: 0px;
+    filter:blur(5px);
+    position: center;
+    top: -150px;
+    left: 350px; 
+    
+}
+
+input[type="radio"] {
+    display: inline;
+    margin-right: 10px;
+  }
+
+
+.rectangle:hover{
+    border-radius: 400px;
+    background-image: linear-gradient(brown,beige);
+    /* filter: blur(50px); */
+    /* filter: drop-shadow(16px 16px 20px red) invert(75%); */
+    /* border: 2px solid dodgerblue; */
+} 
+
+
+.flex-parent1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.rectangle1{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(brown, brown);
+    border-radius: 0px;
+    filter:blur(5px);
+    position: relative;
+    /* top: -150px; */
+    left: 300px; 
+    
+}
+
+.rectangle1:hover{
+    border-radius: 400px;
+    background-image: linear-gradient(brown,beige);
+    /* filter: blur(50px); */
+    /* filter: drop-shadow(16px 16px 20px red) invert(75%); */
+    /* border: 2px solid dodgerblue; */
+} 
+
+.rectangle3{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(brown, brown);
+    border-radius: 0px;
+    filter:blur(5px);
+    position: relative;
+    /* top: -150px; */
+    right: 300px; 
+    
+}
+
+.rectangle3:hover{
+    border-radius: 400px;
+    background-image: linear-gradient(brown,beige);
+    /* filter: blur(50px); */
+    /* filter: drop-shadow(16px 16px 20px red) invert(75%); */
+    /* border: 2px solid dodgerblue; */
+} 
+
+.rectangle4{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(brown, brown);
+    border-radius: 0px;
+    filter:blur(5px);
+    position: relative;
+    /* top: -150px; */
+    left: 1000px; 
+    
+}
+
+.rectangle4:hover{
+    border-radius: 400px;
+    background-image: linear-gradient(brown,beige);
+    /* filter: blur(50px); */
+    /* filter: drop-shadow(16px 16px 20px red) invert(75%); */
+    /* border: 2px solid dodgerblue; */
+} 
